@@ -17,6 +17,7 @@ The Kickstarter_2017-02-15T22_22_48_377Z.json file was downloaded from https://w
 
 Follow the following steps to get the Spearman correlation results and the F-score:
 
+```
 Input																>	Python file						>		Output
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 Kickstarter_2017-02-15T22_22_48_377Z - Copy.json					>	parsedataset.py					>		webrobot_dataset_parsed.txt
@@ -28,3 +29,4 @@ combiOutput.txt + LIWC2015 Results (TXT files (1000 files)).txt		>	combineWithLI
 
 LIWC_Combi.txt														>	SPSS							>		Spearman correlation results
 combiOutput.txt														>	kNN.py							>		F-score
+```
